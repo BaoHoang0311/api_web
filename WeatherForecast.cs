@@ -5,6 +5,7 @@ namespace API_hienchanel
     public class WeatherForecast
     {
         // T1
+        // T2
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
