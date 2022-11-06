@@ -6,6 +6,7 @@ namespace API_hienchanel
     {
         // T1
         // T2
+        // T3 + 1 dòng
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
