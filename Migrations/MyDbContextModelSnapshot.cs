@@ -65,16 +65,6 @@ namespace API_hienchanel.Migrations
                     b.ToTable("Loai");
                 });
 
-            modelBuilder.Entity("API_hienchanel.Data.test", b =>
-                {
-                    b.Property<string>("id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("id");
-
-                    b.ToTable("test");
-                });
-
             modelBuilder.Entity("API_hienchanel.Data.HangHoa", b =>
                 {
                     b.HasOne("API_hienchanel.Data.LoaiHangHoa", "Loai")
