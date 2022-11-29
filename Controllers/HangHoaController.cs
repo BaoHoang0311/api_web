@@ -19,9 +19,10 @@ namespace API_hienchanel.Controllers
         };
 
         [HttpGet]
-        public IActionResult GetAlls()
+        public ActionResult<IEnumerable<HangHoa>> GetAlls()
         {
-            return Ok(listHanghHoa);
+            //return Ok(listHanghHoa);
+            return listHanghHoa;
         }
         [HttpPost]
         public IActionResult Create(HanghoaVM hanghoaVM)

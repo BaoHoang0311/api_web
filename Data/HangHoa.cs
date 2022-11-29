@@ -16,5 +16,11 @@ namespace API_hienchanel.Data
         [Range(0,double.MaxValue)]
         public double DonGia { get; set; }
         public byte GiamgGia { get; set; }
+
+        // Foreign key
+        public int MaLoai { get; set; } // không cho null
+        [ForeignKey("MaLoai")]
+        public LoaiHangHoa Loai { get; set; }
+
     }
 }
