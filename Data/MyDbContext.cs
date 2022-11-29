@@ -11,6 +11,7 @@ namespace API_hienchanel.Data
         #region DbSet
         public DbSet<HangHoa> HangHoas { get; set; }
         public DbSet<LoaiHangHoa> loais { get; set; }
+        public DbSet<test> test { get; set; }
         #endregion
     }
 }
