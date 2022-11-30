@@ -53,6 +53,7 @@ namespace API_hienchanel
 
             app.UseRouting();
 
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
